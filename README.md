@@ -15,7 +15,7 @@ Here are the parameters I've used
 One thing that I would like to think about for the next order is to also order a stencil since it makes the boards easier to assemble. A thing to note is, that if you've designed visible copper traces such as your name, they would be exposed in the stencil. In ordr to avoid that you'd need to review or design the stencil yourself. 
 
 Here are the manufactured PCBs:
-![alt text](https://github.com/barcesat/nfc_business_card/raw/master/pcb.jpg "Manufactured PCBs")
+![pcb](https://github.com/barcesat/nfc_business_card/assets/9979719/3b095e2d-df43-4225-813c-9dbabc531038)
 
 ## Step 3: Order parts
 To assemble the board, you would need these parts (Digikey links):
@@ -27,8 +27,6 @@ To assemble the board, you would need these parts (Digikey links):
 To assemble the board you would need some kind of a solder paste like [this one](https://www.digikey.co.il/he/products/detail/chip-quik-inc/SMDLTLFP/2682721)
 
 ## Step 4: Assemble your board
-![pcb](https://github.com/barcesat/nfc_business_card/assets/9979719/3b095e2d-df43-4225-813c-9dbabc531038)
-
 The required tools are:
 1. A hot plate or a hot air gun
 2. A soldering Iron
@@ -43,12 +41,11 @@ Here are the assembled PCBs:
 
 ## Step 5: Program your board
 
-![alt text](https://github.com/barcesat/nfc_business_card/raw/master/programmed_pcb.jpg "Programmed PCBs")
+[programmed_pcb](https://github.com/barcesat/nfc_business_card/assets/9979719/4d5683f2-a22c-467a-b51c-4314655f3536)
 
 #TODO: add code
 
 ## Step 6: Write NFC records
-I have used [NFC Tools](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc&hl=en&gl=US&pli=1) to read the tag, create a contact URI record, and write it to the tag.![programmed_pcb](https://github.com/barcesat/nfc_business_card/assets/9979719/4d5683f2-a22c-467a-b51c-4314655f3536)
-![programmed_pcb](https://github.com/barcesat/nfc_business_card/assets/9979719/100d1378-8614-402d-b954-b2a368212507)
+I have used [NFC Tools](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc&hl=en&gl=US&pli=1) to read the tag, create a contact URI record, and write it to the tag.!
 
 #TODO: add screenshots
