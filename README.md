@@ -41,7 +41,7 @@ Here are the assembled PCBs:
 
 ## Step 5: Program your board
 
-[programmed_pcb](https://github.com/barcesat/nfc_business_card/assets/9979719/4d5683f2-a22c-467a-b51c-4314655f3536)
+![programmed_pcb](https://github.com/barcesat/nfc_business_card/assets/9979719/4d5683f2-a22c-467a-b51c-4314655f3536)
 
 #TODO: add code
 
