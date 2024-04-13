@@ -10,7 +10,33 @@ I have also cloned the project at first from this one: https://oshwlab.com/shuch
 I have used JLCPCB to manufacture the PCBs, it was easy to do and the results look great (they even remade part of the batch because they found scratches on some of the boards, so I got more boards eventually).
 
 Here are the parameters I've used
-#TODO: add jlcpcb parameters
+- Base Material:	FR-4	
+- Layers:	2
+- Dimension:	88.9 mm* 50.8 mm	
+- Product Type:	Industrial/Consumer electronics	
+- Different Design:	1
+- Delivery Format:	Single PCB	
+- PCB Thickness:	0.6
+- Impedance Control:	no	
+- PCB Color:	Green	
+- Silkscreen:	White
+- Material Type:	FR4-Standard TG 135-140
+- Via Covering:	Tented
+- Surface Finish:	ENIG 
+- Gold Fingers: 1U"	
+- Deburring/Edge rounding:	No
+- Outer Copper Weight:	1 oz	
+- Gold Fingers:	No
+- Flying Probe Test:	Fully Test	
+- Castellated Holes:	no
+- Edge Plating:	No	
+Remove Order Number:	Yes
+4-Wire Kelvin Test:	No	
+Paper between PCBs:	No
+Appearance Quality:	IPC Class 2 Standard	
+Silkscreen Technology:	Ink-jet/Screen Printing Silkscreen	
+Package Box:	With JLCPCB logo
+Board Outline Tolerance:	±0.2mm(Regular)
 
 One thing that I would like to think about for the next order is to also order a stencil since it makes the boards easier to assemble. A thing to note is, that if you've designed visible copper traces such as your name, they would be exposed in the stencil. In ordr to avoid that you'd need to review or design the stencil yourself. 
 
