@@ -9,7 +9,7 @@ I have also cloned the project at first from this one: https://oshwlab.com/shuch
 ## Step 2: Manufacture your PCB
 I have used JLCPCB to manufacture the PCBs, it was easy to do and the results look great (they even remade part of the batch because they found scratches on some of the boards, so I got more boards eventually).
 
-Here are the parameters I've used
+Here are the parameters I've used:
 - Base Material:	FR-4	
 - Layers:	2
 - Dimension:	88.9 mm* 50.8 mm	
@@ -86,7 +86,11 @@ In order to connect to them, I first used wirewrap wires and after that used PCB
 
 I have used the code from [this repository](https://github.com/thijses/NT3H_thijs) as a base to check the connections
 
-#TODO: add modified code 
+to run the tag provisioning code, open the Pltformio project that's found in [here](https://github.com/barcesat/NT3H_thijs/blob/main/examples/NT3H_thijs_platformIO_example/src/main.cpp)
+
+This code scans for the tag using I2C in the default adderss 0x55, deletes the memory and read the registers to validate and check the chip.
+After that the code will run for a loop and will report if a field is found (aka the tag is read with a NFC reader or a phone).
+To perform the initialization on a series of tags, simply connect the programming board to the tag and hit the reset button. Then, reconnect the next tag, hit reset, etc.
 
 ## Step 6: Write NFC records
 I have used [NFC Tools](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc&hl=en&gl=US&pli=1) to read the tag, create a contact URI record, and write it to the tag.!
