@@ -34,16 +34,33 @@ The required tools are:
 4. tweezers to place tiny parts on the board
 5. Some kind of a magnifying lens or microscope
 
-Here are the assembled PCBs:
-![alt text](https://github.com/barcesat/nfc_business_card/raw/master/assembled_pcb.jpg "Assembled PCBs")
+Assembly steps:
+1. Spread a thin layer of solder paste on the component pads.
+2. Carefully pick and place the components on the board.
 
-#TODO: add assembly guide, cleaning and visual checkup
+3. Solder the components in place (I have used a hot plate), look out for flying bits and deformation of the PCB due to the temperature difference.
+![WhatsApp Image 2024-04-13 at 9 41 32 AM](https://github.com/barcesat/nfc_business_card/assets/9979719/0f369fc3-fbd9-4236-bb62-2a7dda2b8894)
+
+4. Perform visual inspection on the boards (As you can see, I had a lot of shorts that would be easily cleaned with solder wick)
+![Visual inspection on the boards](https://github.com/barcesat/nfc_business_card/assets/9979719/cdf6f625-2b3c-454a-9217-d40c481f908b)
+
+Here is the assembled PCB:
+![Assembled PCB](https://github.com/barcesat/nfc_business_card/assets/9979719/bdff3217-70a0-40c7-b5fc-9c41f65bb220)
 
 ## Step 5: Program your board
 
 ![programmed_pcb](https://github.com/barcesat/nfc_business_card/assets/9979719/4d5683f2-a22c-467a-b51c-4314655f3536)
 
-#TODO: add code
+I have used at first an arduino micro and after that moved to an esp32 dev board to program the boards.
+In order to connect to them, I first used wirewrap wires and after that used PCBite needle probes. There are 4 connections that need to be made:
+1. VCC to 3.3V
+2. GND to GND
+3. SCL to SCL (I2C interface)
+4. SDA to SDA (I2C interface)
+
+I have used the code from [this repository](https://github.com/thijses/NT3H_thijs) as a base to check the connections
+
+#TODO: add modified code 
 
 ## Step 6: Write NFC records
 I have used [NFC Tools](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc&hl=en&gl=US&pli=1) to read the tag, create a contact URI record, and write it to the tag.!
