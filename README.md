@@ -30,13 +30,13 @@ Here are the parameters I've used
 - Flying Probe Test:	Fully Test	
 - Castellated Holes:	no
 - Edge Plating:	No	
-Remove Order Number:	Yes
-4-Wire Kelvin Test:	No	
-Paper between PCBs:	No
-Appearance Quality:	IPC Class 2 Standard	
-Silkscreen Technology:	Ink-jet/Screen Printing Silkscreen	
-Package Box:	With JLCPCB logo
-Board Outline Tolerance:	±0.2mm(Regular)
+- Remove Order Number:	Yes
+- 4-Wire Kelvin Test:	No	
+- Paper between PCBs:	No
+- Appearance Quality:	IPC Class 2 Standard	
+- Silkscreen Technology:	Ink-jet/Screen Printing Silkscreen	
+- Package Box:	With JLCPCB logo
+- Board Outline Tolerance:	±0.2mm(Regular)
 
 One thing that I would like to think about for the next order is to also order a stencil since it makes the boards easier to assemble. A thing to note is, that if you've designed visible copper traces such as your name, they would be exposed in the stencil. In ordr to avoid that you'd need to review or design the stencil yourself. 
 
