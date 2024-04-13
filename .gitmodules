@@ -1,0 +1,3 @@
+[submodule "NT3H_thijs"]
+	path = NT3H_thijs
+	url = https://github.com/barcesat/NT3H_thijs.git
