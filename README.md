@@ -3,8 +3,8 @@ Create and build your own business card on a PCB with NFC capability
 
 ## Step 1: Design your PCB
 you would need to design your PCB to include your contact details, graphics and also select the dimensions of the card.
-You can use my example by opening it using [EasyEDA Standard](https://easyeda.com/) to import the schematic and PCB json files or clone it from [this project on OSHWLAB] (https://oshwlab.com/info_4904/nfc-business-card)
-I have also cloned the project at first from this one: https://oshwlab.com/shuchirj/nfc-business-card
+You can use my example by opening it using [EasyEDA Standard](https://easyeda.com/) to import the schematic and PCB json files or clone it from [this project on OSHWLAB](https://oshwlab.com/info_4904/nfc-business-card)
+I have also cloned the project at first from [this one](https://oshwlab.com/shuchirj/nfc-business-card). Shoutout to [@CoolCoderSJ](https://github.com/CoolCoderSJ)! 
 
 ## Step 2: Manufacture your PCB
 I have used JLCPCB to manufacture the PCBs, it was easy to do and the results look great (they even remade part of the batch because they found scratches on some of the boards, so I got more boards eventually).
@@ -63,11 +63,12 @@ The required tools are:
 Assembly steps:
 1. Spread a thin layer of solder paste on the component pads.
 2. Carefully pick and place the components on the board.
+3. Align the parts in their correct orientation (Specifically, the NFC chip and the LED)
 
-3. Solder the components in place (I have used a hot plate), look out for flying bits and deformation of the PCB due to the temperature difference.
+4. Solder the components in place (I have used a hot plate), look out for flying bits and deformation of the PCB due to the temperature difference.
 ![WhatsApp Image 2024-04-13 at 9 41 32 AM](https://github.com/barcesat/nfc_business_card/assets/9979719/0f369fc3-fbd9-4236-bb62-2a7dda2b8894)
 
-4. Perform visual inspection on the boards (As you can see, I had a lot of shorts that would be easily cleaned with solder wick)
+5. Perform visual inspection on the boards (As you can see, I had a lot of shorts that would be easily cleaned with solder wick)
 ![Visual inspection on the boards](https://github.com/barcesat/nfc_business_card/assets/9979719/cdf6f625-2b3c-454a-9217-d40c481f908b)
 
 Here is the assembled PCB:
